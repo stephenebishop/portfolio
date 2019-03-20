@@ -1,0 +1,47 @@
+.head-grid-left {
+  justify-items: right;  
+}
+
+.head-grid-center {
+  margin: 0 auto;
+}
+
+.head-grid-right {
+  Margin: 0 0 0 auto;
+}
+
+.name-button {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.button {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  border-radius: 20%;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: clear; /* Green */
+  color: gray; 
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 50vw 50vw
+}
+
+.copyright {
+  Margin: auto auto 0 0;
+}
+
+.feet {
+  float: right;
+  transform: rotate(180deg);
+}
+
